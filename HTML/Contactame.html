@@ -35,9 +35,54 @@
         </tr>
     </table>
     <!-- retorna a la vista principal -->
-    <h2 align="center"><b><i>GRACIAS POR REVISAR MI HOJA DE VIDA :) </i></b></h2>
-    <a href ="HojaDeVida.html" target="_blank" style="color:sienna;"> volver a el inicio</a>
-
-   
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 align="center"><b><i> Dejame tus dudas, y/o sugerencias</b></i></h3>
+<center>
+    <form>
+        <label for="nombre" >Nombre Completo : </label > 
+        <input type="text" id="Fullname" name="Fullname" size="50" maxlength="50"
+        minlength="1" placeholder="Ingrese su nombre completo"
+        autofocus autocomplete="off" 
+        pattern="[a-zA-Z]+" title="Solo letras y/o espacios" required >
+        <br>
+        <br>
+        <br>
+        <label for="nombre">Correo Electronico : </label>
+        <input type="text" id="Fullemail" name="Fullemail" size="50" maxlength="50"
+        minlength="1" placeholder="Ingrese su correo electronico"
+        autofocus autocomplete="off" required >
+        <br> 
+        <br>
+        <br>
+        <label for="nombre">Numero telefonico: </label>
+        <input type="text" id="telefono" name="telefono" size="50" maxlength="10"
+        minlength="1" placeholder="ingrese su numero telefonico"
+        autofocus autocomplete="off" required pattern="[0-9]+" >
+        <br>
+        <br>
+        <label> califica mi hoja de vida:</label>
+        <input type="number" id="numero" name="numero" required  min="1" max="5" size="100" maxlength="50"
+        placeholder="Ingrese su calificacion" > 
+        <br>
+        <br>
+        <br>
+        <label> DEJA TU COMENTARIO</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" cols="70" rows="10" maxlength="500" minlength="50"
+        placeholder="ingresa tu comentario" required></textarea>
+        <br>
+        <br>
+  
+        <button id="send" name="send">Guardar datos</button>
+        <br>
+        <br>
+        <br>
+        <h2 align="center"><b><i>GRACIAS POR REVISAR MI HOJA DE VIDA :) </i></b></h2>
+        <a href ="HojaDeVida.html" target="_blank" style="color:sienna;"> volver a el inicio</a>
+</center>
+</form>
 </body>
 </html>
